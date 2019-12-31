@@ -1,0 +1,21 @@
+{
+    "name": "villagrabaez/phpcourse",
+    "description": "Basic PHP course",
+    "require": {
+        "illuminate/database": "^7.0@dev",
+        "dompdf/dompdf": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bernardino Villagra",
+            "email": "bernardinovillagra@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
